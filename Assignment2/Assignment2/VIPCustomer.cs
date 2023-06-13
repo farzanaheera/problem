@@ -37,14 +37,13 @@ namespace Assignment2
            }
    */
 
-        public string type { get; set; }
+        public string? type { get; set; }
 
         public VIPCustomer() { }
-
-        public VIPCustomer(string name)
+        /*public VIPCustomer(string name)
         {
-            _name = name;
-        }
+            type = name;
+        }*/
 
         public bool takeloan(double amount)
         {
